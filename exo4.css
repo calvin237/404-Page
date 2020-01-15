@@ -1,0 +1,165 @@
+.header {
+    display: flex;
+    background-color: rgba(30, 97, 136, 0,5);
+    height: 110px;
+    width: 1290px;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 10px;
+    background-color: rgba(10,10,10, 0.1);
+    
+}
+
+.header_nav {
+    text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+   
+    color: crimson;
+    
+}
+li {
+    margin: 50px 10px 20px 0px;
+    color: crimson;
+}
+body {
+    
+    width: 800px;
+    background-color:white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+    -webkit-animation-name: color ;
+    -webkit-animation-duration:10s ;
+    -webkit-animation-timing-function:ease ;
+    -webkit-animation-delay: 5s;
+    -webkit-animation-iteration-count:infinite ;
+    -webkit-animation-direction:alternate ;
+
+    -moz-animation-name:color ;
+    -moz-animation-duration:10s ;
+    -moz-animation-timing-function:ease ;
+    -moz-animation-delay: 5s;
+    -moz-animation-iteration-count:infinite ;
+    -moz-animation-direction:alternate ;
+    
+    -o-animation-name:color ;
+    -o-animation-duration:10s ;
+    -o-animation-timing-function:ease ;
+    -o-animation-delay: 5s;
+    -o-animation-iteration-count:infinite ;
+    -o-animation-direction:alternate ;
+    
+    animation-name:color ;
+    animation-duration:10s ;
+    animation-timing-function:ease ;
+    animation-delay: 5s;
+    animation-iteration-count:infinite ;
+    animation-direction:alternate ;
+    
+       
+} 
+@-webkit-keyframes color {
+    from { background-color: white;}
+    to {background-color:  gray;}
+}
+@-moz-keyframes color {
+    from { background-color: white;}
+    to {background-color:   gray;}
+}
+@-o-keyframes color {
+    from { background-color: white;}
+    to {background-color: gray;}
+}
+@keyframes color {
+    from { background-color: white;}
+    to {background-color:  gray;}
+}
+
+
+
+}
+.corps {
+    
+    
+    display: flex;
+    flex-flow: column wrap;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-emphasis-color: red;
+    background-color: thistle;
+}
+h1 {
+    width: 100%;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    -webkit-animation-name: change ;
+    -webkit-animation-duration:1s ;
+    -webkit-animation-timing-function:ease ;
+    -webkit-animation-delay: 5ms;
+    -webkit-animation-iteration-count:infinite ;
+    -webkit-animation-direction:alternate ;
+
+    animation-name: change ;
+    animation-duration:1s ;
+    animation-timing-function:ease ;
+    animation-delay: 1ms;
+    animation-iteration-count:infinite ;
+    animation-direction:alternate ;
+       
+}
+
+@-webkit-keyframes change {
+    from {color: red;}
+    to {color: green;}
+}
+@keyframes change {
+    from {color: red;}
+    to {color: green;}
+}
+
+
+
+  
+h4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    text-emphasis-color: red;
+   
+
+}
+p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    text-emphasis-color: red
+   
+
+}
+.footer {
+    background-color: rgba(10,10,10, 0.1);
+    height: 120px;
+
+}
+
+.lien {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
